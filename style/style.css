@@ -44,6 +44,25 @@ body{
      display: flex;
      justify-content: center;
  }
+ /* .img__main{
+   padding-top: 90px;
+   width: 30%;
+   height: 25px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20%;
+   justify-content: space-between;
+ }
+ .img__main--hommer{
+  width: 34%;
+}
+.img__main--fc{
+  width: 33%;
+}
+.img__main--ig{
+  width: 33%;
+} */
+
  .texto{
    display: flex;
    align-content: center;
@@ -71,14 +90,14 @@ body{
 .contenedor_video{
    width: 100%;
    height: 800px;
-   background-color: #f4f4f4;
+   background-color: white;
  }
 .video{
     width: 58%;
     min-width: auto;
     height: auto;
     margin: 0 auto;
-    background-color: #fafafa;
+    background-color: #e3f6f5;
     align-content: center;
     position: relative;
     top: -40px;
@@ -86,10 +105,11 @@ body{
  } 
 .video video {
   display: inline;
+  width: 100%;
 }
 @media screen and (max-width:768px){
   .video{
-    background-color: #f4f4f4;
+    background-color: #e3f6f5;
     width: 90%;
     height: 200px;
     height: auto;
@@ -103,7 +123,7 @@ body{
 }
  @media screen and (max-width:400px){
    .video{
-    background-color: #f4f4f4;
+    background-color: #e3f6f5;
      width: 100%;
      height: auto;
      margin: 0;
@@ -230,8 +250,8 @@ section{
     width: 50%;
 }
 .section_flex--img img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 .section_flex--tex{
     width: 50%;
@@ -273,3 +293,322 @@ section{
     display: none;
   }
 } 
+.contenedor-temario{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #57078E;
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .section-temario{
+    background-color: #57078E;
+    margin-bottom: auto;
+  }
+  .section-temario-text{
+    width: 50%;
+    max-height: 350px;
+    text-align: justify;
+    padding: 5%;
+   background-color: #57078E;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+  }
+  
+  .temario-img{
+    width: 350px;
+  }
+  
+  /* me presento */
+  .contenedor-presento{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    color: black;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: -1px;
+  }
+  
+  .section-presento{
+    margin-bottom: auto;
+  }
+  .section-presento-text{
+    width: 50%;
+    max-height: 350px;
+    text-align: justify;
+    padding: 5%;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: -1px;
+  }
+  
+  .presento-img{
+    width: 354px;
+    height: 354px;
+    border-radius:350px;
+  margin-bottom: 30px;
+  }
+    
+  
+  /* ---------- la gente esta hablando----------------------------*/ 
+  .contenedorPortada {
+    display: flex;
+    background-color:#bae8e8;
+    column-gap: 20px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+  height: 400px;
+      
+    
+      }
+  .contenedorPortadaDescripcion {
+      background-color: white;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      padding: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      height: fit-content;
+      width: 2800px;
+      
+      }
+  
+      .contenedorPortadaDescripcion1{
+        background-color: white;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      padding: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      height: fit-content;
+      width: 2800px;
+      }
+      
+      .contenedorPortadaDescripcion2{
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        height: fit-content;
+        width: 2800px;
+      }
+  
+  .section-hablando{
+    text-align: center;
+    background-color: #bae8e8 ;
+    margin-bottom: -1px;
+  
+  }
+  
+  .p2{font-style: bolder;
+    font-weight: 700;
+  font-size: 16px;
+  color: #57078E;}
+  
+  
+    
+    /* ---------- footer----------------------------*/ 
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:450px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 20px;
+   padding-bottom: -10px;
+  }
+  
+/* css 2da parte //
+.contenedor-temario{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #57078E;
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .section-temario{
+    background-color: #57078E;
+    margin-bottom: auto;
+  }
+  .section-temario-text{
+    width: 50%;
+    max-height: 350px;
+    text-align: justify;
+    padding: 5%;
+   background-color: #57078E;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+  }
+  
+  .temario-img{
+    width: 350px;
+  }
+  
+  /* me presento */
+  .contenedor-presento{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    color: black;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: -1px;
+  }
+  
+  .section-presento{
+    margin-bottom: auto;
+  }
+  .section-presento-text{
+    width: 50%;
+    max-height: 350px;
+    text-align: justify;
+    padding: 5%;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: -1px;
+  }
+  
+  .presento-img{
+    width: 354px;
+    height: 354px;
+    border-radius:350px;
+  margin-bottom: 30px;
+  }
+    
+  
+  /* ---------- la gente esta hablando----------------------------*/ 
+  .contenedorPortada {
+    display: flex;
+    background-color:#bae8e8;
+    column-gap: 20px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+  height: 400px;
+      
+    
+      }
+  .contenedorPortadaDescripcion {
+      background-color: white;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      padding: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      height: fit-content;
+      width: 2800px;
+      
+      }
+  
+      .contenedorPortadaDescripcion1{
+        background-color: white;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      padding: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      height: fit-content;
+      width: 2800px;
+      }
+      
+      .contenedorPortadaDescripcion2{
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        height: fit-content;
+        width: 2800px;
+      }
+  
+  .section-hablando{
+    text-align: center;
+    background-color: #bae8e8 ;
+    margin-bottom: -1px;
+  
+  }
+  
+  .p2{font-style: bolder;
+    font-weight: 700;
+  font-size: 16px;
+  color: #57078E;}
+  
+  
+    
+    /* ---------- footer----------------------------*/ 
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:450px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 20px;
+   padding-bottom: -10px;
+  }
+  

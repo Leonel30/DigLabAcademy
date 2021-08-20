@@ -34,20 +34,20 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#formulario">
                   <img width="15px" height="15px" src="./img/TELEGRAM 1.svg" alt="contact">
-                Contáctanos
+                Contactanos
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#temario">
                   <img width="15px" height="15px" src="./img/LISTA 2.svg" alt="checklist">
                   Temario</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img width="15px" height="15px" src="./img/USER 1.svg" alt="checklist">
-                  Nosotros</a>
+                <a class="nav-link" href="#ponente">
+                  <img width="15px" height="15px" src="./img/ponenete.svg" alt="checklist">
+                  Ponente</a>
               </li>
             </ul>
           </div>
@@ -56,36 +56,51 @@
   </header>
   <!-- fin de Nav -->
   <!-- Inicio de main -->
+  <!-- <div class="img__main">
+    <div class="img__main--hommer">
+      <img width="24px" height="24px" src="./img/martillo.svg" alt="hommer">
+    </div>
+    <div class="img__main--fc">
+      <img width="24px" height="24px" src="./img/fcheader.svg" alt="fcheader">
+    </div>
+    <div class="img__main--ig">
+      <img width="24px" height="24px" src="./img/igheader.svg" alt="igheader">
+    </div>
+   </div> -->
   <div class="container_main"> 
+    
     <div class="texto">
       <h1>Taller de Facebook Adds para Abogados</h1>
-      <p>Atra potenciales clientes a tu despacho <br>  usando Facebooks Ads</p>
+      <p>Atrae potenciales clientes a tu despacho <br>  usando Facebooks Ads</p>
     </div>
   </div>
     <div class="contenedor_video">
       <div class="video">
-        <video src="./img/videoPresentacion.mp4" preload="auto"autoplay loop  ></video>
+        <video src="./img/videoPresentacion.mp4" preload="auto"autoplay muted loop controls  ></video>
           <!-- <iframe width="800" height="500" src="https://www.youtube.com/embed/7WxmwpJzeKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       </div>     
     </div> 
   
   <!-- inicio de formulaio-->
 
-  <div class="contenedor-form" >
-    <div class="form">
-      <h2>¡Contactanos!</h2>
-      <p class="form_p">Para más información,dejanos tus datos.</p>
+  <div class="contenedor-form">
+    <div class="form" id="formulario">
+      <h2 >¡Contactanos!</h2>
+      <p class="form_p">Para inscribirte, deja tus datos.</p>
       <div class="card-body1">
         <form action="https://formspree.io/f/mpzkyanr" method="POST">
             <div class="form-group mb-2">
+                <img width="15px" height="15px" src="./img/personafor.svg" alt="persona">
                 <label for="name">NOMBRE Y APELLIDO</label>
                 <input type="text" name="nombre" placeholder="Nombre y Apellido" class="form-control" required="required">
             </div>
             <div class="form-group mb-2">
+                <img width="15px" height="15px" src="./img/emailform.svg" alt="mail">
                 <label for="email">MAIL</label>
                 <input type="email" name="_replyto" placeholder="Ingrese email" class="form-control" required="required">
             </div>
             <div class="form-group mb-2">
+                <img width="15px" height="15px" src="./img/wsform.svg" alt="ws">
                 <label for="email">TELEFÓNO</label>
                 <input type="text" name="phone" placeholder="Ingrese télefono" class="form-control" required="required">
             </div>
@@ -110,7 +125,7 @@
      
      <div class="contenedor-flex">
         <div class="section_flex--img">
-          <img src="/img/drive-download-20210808T114932Z-001/1.svg" alt="img1">
+          <img src="/img/1c.svg" alt="img1">
         </div>
         <div class="section_flex--tex">
           <h3>Crear anuncios efectivos
@@ -118,17 +133,17 @@
           <p>Crear anuncios atractivos, que llamen la atencion de tu audiencia.</p>
         </div>
         <div class="section_flex--img" id="telefono">
-          <img src="/img/drive-download-20210808T114932Z-001/2b.svg" alt="img2">
+          <img src="/img/2c.svg" alt="img2">
         </div> 
         <div class="section_flex--tex">
           <h3>Llegar al público correcto</h3>
           <p>Aprende a crear audiencias y segmentar públicos,para llegar a las personas indicadas.</p>
         </div>
         <div class="section_flex--img"id="pc">
-          <img src="/img/drive-download-20210808T114932Z-001/2b.svg" alt="img2">
+          <img src="/img/2c.svg" alt="img2">
         </div>
         <div class="section_flex--img">
-          <img src="/img/drive-download-20210808T114932Z-001/3b.svg" alt="img3">
+          <img src="/img/3c.svg" alt="img3">
         </div>
         <div class="section_flex--tex">
           <h3>Convertir tus leads en clientes</h3>
@@ -136,162 +151,89 @@
         </div>
       </div>
    </section> 
-   <!-- <div class="presentacion" style="max-width: 1000px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="img/foto hombre.jpg" class="img-fluid rounded-start" alt="...">
+   <section id="temario">
+    <div class="contenedor-temario">
+    <h2 class="section-temario">Temario</h2>
+      <div class="section-temario-text">
+        <ul>
+          <li> Creación de cuenta publicitaria y perfil profesional.</li>
+          <li>¿Cómo plantear objetivos?</li>
+          <li> Creación de campaña.</li>
+          <li> Segmentación de públicos.</li>
+          <li> Creación de formulario.</li>
+          <li>Creación de anuncios.</li>
+          <li>Monitoreo de rendimiento.</li>
+          <li> Optimización del presupuesto.</li>
+        </ul>
+   </div>
+      <div class="section-flex-temario-img">
+          <img class="temario-img" src="img/014-books 2.png"  alt="">
       </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Me presento</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus facere perferendis! Nobis, placeat consectetur, a iure quis libero molestiae, recusandae quisquam asperiores consequatur molestias vitae fugiat ex suscipit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis hic mollitia odio porro dignissimos accusamus, numquam dolor. Deserunt vel sapiente voluptatem esse ipsum unde beatae alias eveniet reprehenderit. Eius, illo!Lorem</p>
-         
-        </div>
       </div>
     </div>
-  </div> -->
-
-   
-  <!-- ***** Temario**** -->
-  <!-- <section class="section" id="temario">
-    <div class="container-fluid">
-        <class class="row">
-            <div class="col-lg-6 col-md-6 col-xs-12">
-              <div class="left-text-content">
-                
-                    <div class="section-heading">
-                      
-                        <h2> Temario</h2>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6 col-sm-6">
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                        </div>
-                        <div class="col-md-12">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <class class="col-lg-6 col-md-6 col-xs-12">
-                <div class="parrafo-derecha">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quisquam sapiente commodi nisi quas, aliquam alias, provident tempora est esse ipsam blanditiis rerum quasi distinctio! Quibusdam voluptas harum reprehenderit praesentium?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum suscipit libero recusandae non, facilis eius omnis commodi ad ullam placeat, blanditiis inventore id. Veniam quaerat natus, deleniti accusamus molestias et!Lorem </p>
-                </div>
-            </class>
-        </class>
-    </div>
-</section>  -->
-<!-- ***** Fin de area ***** -->
-
-<!-- ***** seccion de que habla la gente ***** -->
-
-<!-- <div class="card-group">
-  <div class="card">
+  </section>
   
-    <div class="card-body">
-      
-      <h2>La gente esta hablando</h2>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="img/504-5041609_women-group-silhouette-transparent-silhouette-hd-png-download.png" alt="Card image cap">
-    <div class="card-body">
-      
-      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor alias ex quaerat soluta fuga natus eos, eum quo ducimus vel adipisci inventore voluptatum consequatur aut neque pariatur id nostrum aliquid.
+  
+  
+  <!-- Me presento  -->
+  <section id="ponente">
+    <div class="contenedor-presento"  >
+    <h2 class="section-presento">Me presento</h2>
+       <div class="section-presento-img">
+        <img class="presento-img" src="img/ingnacio-me-presento.jpeg"  alt="">
+   </div>
+   <div class="section-presento-text">
+    <p>¡Mi nombre es Ignacio! Soy de Córdoba, Argentina. Estoy certificado en Facebook Blueprint y hace más de 10 años que me especializo en crear y administrar campañas de Facebook Ads. 
+      Una vasta experiencia en el rubro legal me dio la posibilidad de entender el nicho y su público objetivo, para poder crear campañas efectivas que conviertan. Todo se reduce a entender el customer journey.
+      Mi lema es “menos es más”, por lo que mi objetivo con este taller es proveerte de herramientas simples para que mañana mismo puedas lanzar tu primera campaña, con objetivos reales y cuantificables.
       </p>
+  </div>
+  
+  <!-- la gente esta hablando  -->
+  <section>
+    <h2 class="section-hablando">La gente está hablando</h2>
+    <div class="contenedorPortada">
+    <div class="contenedorPortadaDescripcion1"> 
+      <p>“Hace tiempo venía corriendo anuncios para mi despacho, sin conseguir buenos resultados. Luego de hacer el taller, aprendí a segmentar y a crear anuncios efectivos. Hoy en día es nuestra principal fuente para captar nuevos clientes”</p>
+    </p>
+    <p class="p2">Eduardo Debarre- Abogado</p>
+    </div>
+    <div class="contenedorPortadaDescripcion"> 
+      <p> “El taller me dio las herramientas necesarias para crear mis propios anuncios y conseguir un flujo constante de nuevos clientes. Lo súper recomiendo.”</p>
+      <p class="p2">Jorge Ruiz- Abogado</p>
+    </div>
+    
+    <div class="contenedorPortadaDescripcion2"> 
+  <p> “Muy recomendable. Creía que hacer campañas de anuncios era algo sumamente complicado, pero luego del curso entendí que con la fórmula adecuada los resultados llegan solos. No puedo estar más conforme.”</p>    
+    </p>
+    <p class="p2">Miguel del Campillo- Abogado</p>
+    </div>
+  </section> 
+  
+  
+  <div class="wrapper">
+    <div class="one">
+       <p class="titulo-copy"> &copy 2021 Digital Lab</p>   
+      </div>
+  
+    <div class="two">
+      <div class="iconos">
+      <a href="https://www.facebook.com"target="_blank"><img src="img/Vector-facebook.png" alt="" /></a>
+      <a href="https://www.youtube.com"target="_blank"><img src="img/Vector youtube.png" alt="" /></a>
+      <a href="https://www.instagram.com/digitallabmarketing"target="_blank"><img src="img/Vector instagram.png" alt="" /></a>
+      <a href="https://www.linkedin.com/feed"target="_blank"><img src="img/Vector linkedIn.png" alt="" /></a>
+      <a href="https://https://www.tiktok.com/es"target="_blank"><img src="img/Vector tik tok.png" alt="" /></a>
     </div>
   </div>
-  <div class="card">
-    
-    <div class="card-body">
-      
-      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat possimus qui unde quod ex id voluptatibus voluptates aspernatur pariatur, quo perspiciatis impedit recusandae ab cupiditate similique nihil, debitis consequuntur.
-      </p>
-    
+  
+    <div class="three">
+      <div class="logo-footer"></div>
+      <img src="img/diglabacademy-03.svg" alt="">
     </div>
   </div>
-</div>  -->
-
- 
-
-
-
-  <!-- footer -->
-  <!-- <div class="footer">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-4 col-xs-12">
-                  <div class="first">
-                      <h4>My Skills</h4>
-                      <p> Analytical Skills</p>
-                      <p> Problem-solving skills</p>
-                      <p> Critical-thinking skills</p>
-                      <p> Detail-oriented</p>
-                      <p> Multitasking</p>
-                      <p> Self-motivated</p>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-xs-12">
-                  <div class="second">
-                      <h4> Navigate</h4>
-                      <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">Projects</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Contact</a></li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-xs-12">
-                  <div class="third">
-                      <h4> Contact</h4>
-                      <ul>
-                          <li>Andreea Mihaela Bunget </li>
-                          <li></li>
-
-
-                        <li><i class="far fa-envelope"></i> andreea@andreeabunget.co.uk</li>
-                          <li><i class="far fa-envelope"></i> email@yahoo.com</li>
-
-
-                        <li><i class="fas fa-map-marker-alt"></i> London, UK </li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <div class="line"></div>
-                  <div class="second2">
-                      <a href="https://codepen.io/AndreeaBunget" target="_blank"> <i class="fab fa-codepen fa-2x margin"></i></a>
-                      <a href="https://github.com/WebDeveloperCodeRep" target="_blank"> <i class="fab fa-github fa-2x margin"></i></a>
-                      <a href="https://www.linkedin.com/in/andreea-mihaela-bunget-a4248812b/" target="_blank"> <i class="fab fa-linkedin fa-2x margin"></i></a>
-                      <a href="https://www.youtube.com/channel/UCX674BUbomzBCakbb75lhfA?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-2x margin" ></i></a>
-
-                  </div>
-
-              </div>
-          </div>
-          </div>
-  </div> -->
- 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="assets/script/script.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
 </body>
 </html>
