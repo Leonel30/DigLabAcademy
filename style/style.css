@@ -28,7 +28,7 @@ body{
     background-color: #fafafa;
 }
 .flexEnd{
-    padding-left: 30%;
+    padding-left: 45%;
 }
 
 .bg-own {
@@ -42,37 +42,25 @@ body{
      height: 408px;
      background-color: #bae8e8;
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
  }
- /* .img__main{
-   padding-top: 90px;
-   width: 30%;
-   height: 25px;
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20%;
-   justify-content: space-between;
- }
- .img__main--hommer{
-  width: 34%;
-}
-.img__main--fc{
-  width: 33%;
-}
-.img__main--ig{
-  width: 33%;
-} */
+
 
  .texto{
    display: flex;
    align-content: center;
    flex-wrap: wrap;
    width: 35%;
+   padding-left: 5%;
  }
 
  .texto p {
    text-align: center;
    width: 100%;
+ }
+ .img__main{
+   padding-right: 5%;
+   overflow: hidden;
  }
  @media screen and (max-width:768px){
   .texto{
@@ -81,9 +69,24 @@ body{
   }
 }
  @media screen and (max-width:400px){
+   .container_main{
+     flex-wrap: wrap;
+     height: auto;
+     overflow: hidden;
+   }
   .texto{
     width: 100%;
-    padding: 10%;
+    padding: 0 10%;
+    
+  }
+  .img__main{
+    width: 80%;
+  margin: 0 auto;
+    overflow: hidden;
+  }
+  .img__main img{
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -100,11 +103,12 @@ body{
     background-color: #e3f6f5;
     align-content: center;
     position: relative;
-    top: -40px;
+    top: 40px;
     overflow: hidden;
+    border-radius: 15px;
  } 
 .video video {
-  display: inline;
+  display: block;
   width: 100%;
 }
 @media screen and (max-width:768px){
@@ -115,6 +119,7 @@ body{
     height: auto;
     margin: 0 auto;
     overflow: hidden;
+    top: 10px;
   }
  .video video {
    /* display: block; */
@@ -127,12 +132,13 @@ body{
      width: 100%;
      height: auto;
      margin: 0;
+     margin-top: 30px;
      padding: 0;
      overflow: hidden;
 
    }
   .video video {
-    /* display: block; */
+    
     width: 100%;
     padding: 1%;
   } 
@@ -157,7 +163,7 @@ body{
 }
  @media screen and (max-width:400px){
   .contenedor-form{
-    height: 5px;
+    height: 50px;
   }
 }
 .form{
@@ -178,7 +184,7 @@ body{
 }
 @media screen and (max-width:400px){
   .form{
-    top:-570px;
+    top:-520px;
     padding: 1rem;
     min-width: 90%;
   }
