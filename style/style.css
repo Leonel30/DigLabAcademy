@@ -377,8 +377,6 @@ section{
       padding-top: 90px;
     }
   }
-
-
   @media screen and (max-width:400px){
     .section__temario--img{
       width: 100%;
@@ -394,43 +392,101 @@ section{
     }
   }
   
-
-  
   /* me presento */
-  /* .contenedor-presento{
+  .contenedor-presento{
+    background-color: #ffff;
+    max-height: 450px;
+    margin-top: 50px;
+    overflow: hidden; 
     width: 100%;
-    margin: 0 auto;
-    height: 100%;
-    background-color: white;
-    display:flex;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     color: black;
-    align-items: center;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: -1px;
+   }
+  .presento__ponente{
+    width: 45%;
+    height: 450px;
   }
-  
-  .section-presento{
-    margin-bottom: auto;
+  .presento__ponente h2{
+    font-weight: 700;
+    font-size:36px;
+    margin-bottom: 2rem;
   }
   .section-presento-text{
-    width: 50%;
-    max-height: 350px;
+    width: 40%;
+    height: 450px;
     text-align: justify;
-    padding: 5%;
-   color: black;
-   font-family: 'Roboto', sans-serif;
-   margin-bottom: -1px;
+    padding-right: 5%;
+    color: black;
+    display: flex;
+    align-items: center;
   }
-  
+  .section-presento-text p{
+    font-size: 20px;
+  }
   .presento-img{
     width: 354px;
     height: 354px;
-    border-radius:350px;
-  margin-bottom: 30px;
+    border-radius:354px;
   }
-     */
+  @media screen and (max-width:768px){
+    .contenedor-presento{
+      margin-top: 0;
+      max-height: 900px;
+      padding-left: 0rem;
+    }
+    .presento__ponente{
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center; 
+    }
+    .presento__ponente h2 {
+      margin-top: 40px;
+      width: 100%;
+      padding:0 35%;
+    }
+    .section-presento-img{
+      width: 100%;
+      padding: 0 25%;
+    }
+    .section-presento-text{
+      width: 100%;
+      padding: 10%;
+      height: 400px;
+    }
+  }
+  @media screen and (max-width:400px){
+    .contenedor-presento{
+      max-height: 1150px;
+      padding-left: 0rem;
+    }
+    .presento__ponente{
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center; 
+    }
+    .presento__ponente h2 {
+      margin-top: 40px;
+      width: 100%;
+      padding:0 20%;
+    }
+    .section-presento-img{
+      width: 100%;
+      padding: 0 2.5%;
+    }
+    .section-presento-text{
+      width: 100%;
+      padding: 0 5%;
+      height: 550px;
+      align-items: initial;
+    }
+  }
+    
   
   /* ---------- la gente esta hablando----------------------------*/ 
   /* .contenedorPortada {
