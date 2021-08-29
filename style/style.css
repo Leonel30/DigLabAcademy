@@ -487,19 +487,24 @@ section{
     }
   }
     
-  
   /* ---------- la gente esta hablando----------------------------*/ 
-  /* .contenedorPortada {
+  .section-hablando {
+    padding-top: 4rem;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    background-color: #bae8e8 ;
+    margin-bottom: -1px;
+  }
+  .contenedorPortada {
     display: flex;
     background-color:#bae8e8;
+    flex-wrap: nowrap;
     column-gap: 20px;
-    padding-top: 90px;
-    padding-bottom: 40px;
-    font-family: 'Roboto', sans-serif;
-  height: 400px;
-      
-    
-      }
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 400px;
+  }
   .contenedorPortadaDescripcion {
       background-color: white;
       border-radius: 20px;
@@ -507,7 +512,6 @@ section{
       padding: 1%;
       margin-left: 5%;
       margin-right: 5%;
-      font-family: 'Roboto', sans-serif;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -515,10 +519,7 @@ section{
       letter-spacing: 0em;
       text-align: center;
       height: fit-content;
-      width: 2800px;
-      
       }
-  
       .contenedorPortadaDescripcion1{
         background-color: white;
       border-radius: 20px;
@@ -526,7 +527,6 @@ section{
       padding: 1%;
       margin-left: 5%;
       margin-right: 5%;
-      font-family: 'Roboto', sans-serif;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -534,9 +534,7 @@ section{
       letter-spacing: 0em;
       text-align: center;
       height: fit-content;
-      width: 2800px;
       }
-      
       .contenedorPortadaDescripcion2{
         background-color: white;
         border-radius: 20px;
@@ -544,7 +542,6 @@ section{
         padding: 1%;
         margin-left: 5%;
         margin-right: 5%;
-        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -552,23 +549,33 @@ section{
         letter-spacing: 0em;
         text-align: center;
         height: fit-content;
-        width: 2800px;
       }
-  
-  .section-hablando{
-    text-align: center;
-    background-color: #bae8e8 ;
-    margin-bottom: -1px;
-  
-  }
   
   .p2{font-style: bolder;
     font-weight: 700;
   font-size: 16px;
   color: #57078E;}
+
+  @media screen and (max-width:400px){
+    .contenedorPortada{
+      flex-wrap: wrap;
+      height: 700px;
+    }
+    .contenedorPortadaDescripcion{
+      width: 100%;
+    }
+    .contenedorPortadaDescripcion1{
+      width: 100%;
+    }
+    .contenedorPortadaDescripcion2{
+      width: 100%;
+    }
+  }
+
   
   
-     */
+  
+
     /* ---------- footer----------------------------*/ 
   /* 
   .wrapper {
@@ -581,72 +588,7 @@ section{
   } */
   
 /* css 2da parte //
-.contenedor-temario{
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
-    background-color: #57078E;
-    display:flex;
-    flex-wrap: wrap;
-    color: white;
-    align-items: center;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .section-temario{
-    background-color: #57078E;
-    margin-bottom: auto;
-  }
-  .section-temario-text{
-    width: 50%;
-    max-height: 350px;
-    text-align: justify;
-    padding: 5%;
-   background-color: #57078E;
-   color: white;
-   font-family: 'Roboto', sans-serif;
-  }
-  
-  .temario-img{
-    width: 350px;
-  }
-  
-  /* me presento */
-  /* .contenedor-presento{
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
-    background-color: white;
-    display:flex;
-    flex-wrap: wrap;
-    color: black;
-    align-items: center;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: -1px;
-  }
-   */
-  /* .section-presento{
-    margin-bottom: auto;
-  }
-  .section-presento-text{
-    width: 50%;
-    max-height: 350px;
-    text-align: justify;
-    padding: 5%;
-   color: black;
-   font-family: 'Roboto', sans-serif;
-   margin-bottom: -1px;
-  } */
-  
-  /* .presento-img{
-    width: 354px;
-    height: 354px;
-    border-radius:350px;
-  margin-bottom: 30px;
-  }
-     */
+
   
   /* ---------- la gente esta hablando----------------------------*/ 
   /* .contenedorPortada {
