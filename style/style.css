@@ -322,7 +322,7 @@ section{
   
   .section__temario--text{
     width: 50%;
-   background-color: #57078E;
+   background-color: ;
    max-width: 100%;
    max-height: 450px;
 
@@ -625,4 +625,16 @@ section{
   
 
 
-  
+.btn-primary:hover{
+  box-shadow: 0 10px 16px rgba(87, 7, 142);
+  transition: all 0.2s ease;
+}
+
+
+.temario__boton:hover{
+  box-shadow: 0 10px 16px rgba(87, 7, 142);
+  transition: all 0.2s ease;
+}
+
+#ponente{background-color:white;
+height: 40px;}
