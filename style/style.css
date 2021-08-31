@@ -53,6 +53,9 @@ body{
    width: 35%;
    padding-left: 5%;
  }
+ .texto h1{
+  font-weight:900;
+}
 
  .texto p {
    text-align: center;
@@ -200,6 +203,7 @@ body{
 }
 .form-group label{
   font-size: 14px;
+  font-weight: 900;
 }
 .form-group input{
   border-radius: 5px;
@@ -209,9 +213,9 @@ body{
 margin-top: 2rem;
 }
 button{
-  
   background-color: #1fdbdf !important;
   color: black !important;
+  font-weight: 900 !important;
 }
 /*Fin de form */
 
@@ -237,7 +241,7 @@ section{
 }
 .section_sangria{
   color:#353535 ;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 36px;
   text-align:left;
   padding-left: 3.5rem;
@@ -309,7 +313,6 @@ section{
     background-color: #57078E;
     display:flex;
     flex-wrap: wrap;
-    
   }
   
   .section__temario--text{
@@ -342,7 +345,7 @@ section{
   }
   .section__temario--img{
     width: 50%;
-    overflow: hidden;
+    overflow: visible;
     max-width: 100%;
     max-height: 450px;
   }
@@ -354,6 +357,7 @@ section{
   .section__temario--img img {
     height: 100%;
     width: 100%;
+
   }
   .temario__boton{
     width: 256px;
@@ -409,7 +413,7 @@ section{
     height: 450px;
   }
   .presento__ponente h2{
-    font-weight: 700;
+    font-weight: 900;
     font-size:36px;
     margin-bottom: 2rem;
   }
@@ -518,7 +522,8 @@ section{
       line-height: 24px;
       letter-spacing: 0em;
       text-align: center;
-      height: fit-content;
+      /* height: fit-content; */
+      
       }
       .contenedorPortadaDescripcion1{
         background-color: white;
@@ -533,7 +538,8 @@ section{
       line-height: 24px;
       letter-spacing: 0em;
       text-align: center;
-      height: fit-content;
+      height: fit-content; 
+      
       }
       .contenedorPortadaDescripcion2{
         background-color: white;
